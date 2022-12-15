@@ -1,5 +1,6 @@
 .message {
-
+    width: 527px;
+    height: 60px;
 }
 
 .imageAndText {
@@ -7,7 +8,8 @@
 }
 
 .imageAndText img {
-
+    width: 48px;
+    height: 48px;
 }
 
 .text {
@@ -23,7 +25,11 @@
 }
 
 .messageText {
-
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .time {
