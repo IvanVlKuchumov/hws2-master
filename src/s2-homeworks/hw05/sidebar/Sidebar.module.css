@@ -5,21 +5,42 @@
 }
 
 .background {
+    background: #000000;
+    opacity: 0.3;
 }
 
 .nav {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin: 0px 0px 0px 70px;
 }
 
 .nav a {
+    text-decoration: none;
 }
 
 .nav a:hover {
+    color: #58ACFF;
 }
 
 .nav a.active {
-    color: #cc9c00;
+    color: #0059B2;
+    text-decoration-line: underline;
+    margin: 0px 0px 0px 70px;
 }
 .close {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background-color: #FFFFFF;
 }
 
 .close img {

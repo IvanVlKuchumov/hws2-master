@@ -1,6 +1,6 @@
 .App {
     --header_height: 60px;
-    border-bottom: 1px solid #D9D9D9;
+
 }
 
 .hw {
@@ -9,6 +9,7 @@
     margin: 0 auto;
     padding: 24px 70px 70px 0;
     flex-direction: column;
+    border-bottom: 1px solid #D9D9D9;
 }
 
 .hwTitle {
