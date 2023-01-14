@@ -1,7 +1,12 @@
 .sidebar {
+    display: none;
 }
 
 .sidebar.open {
+    display: flex;
+    position: absolute;
+    min-height: 100%;
+    background-color: #FFFFFF;
 }
 
 .background {
