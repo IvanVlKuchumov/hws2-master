@@ -7,11 +7,20 @@
     position: absolute;
     min-height: 100%;
     background-color: #FFFFFF;
+    width: 317px;
+    flex-direction: column;
+    align-items: end;
+    gap: 29px;
+    z-index: 3;
 }
 
 .background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
     background: #000000;
     opacity: 0.3;
+    z-index: 1;
 }
 
 .nav {
@@ -22,22 +31,27 @@
     display: flex;
     flex-direction: column;
     gap: 45px;
-    margin: 0px 0px 0px 70px;
+    padding-right: 70px;
 }
 
 .nav a {
     text-decoration: none;
+
 }
 
 .nav a:hover {
     color: #58ACFF;
 }
 
+.nav a:active {
+    color: #3D6B99;
+}
+
 .nav a.active {
     color: #0059B2;
     text-decoration-line: underline;
-    margin: 0px 0px 0px 70px;
 }
+
 .close {
     width: 24px;
     height: 24px;
@@ -46,7 +60,10 @@
     justify-content: center;
     border: none;
     background-color: #FFFFFF;
+    padding-top: 22px;
+    padding-right: 24px;
 }
 
 .close img {
+
 }
