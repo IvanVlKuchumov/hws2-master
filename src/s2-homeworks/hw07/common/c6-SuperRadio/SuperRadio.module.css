@@ -28,7 +28,6 @@
 }
 
 .label {
-    display: flex;
     gap: 13px;
     padding-left: 25px;
 }
