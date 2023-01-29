@@ -26,19 +26,10 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
                 return 0;
             }
             const compareFunction = action.payload === 'up' ? compareFunctionUp : compareFunctionDown
-            return state.sort(compareFunction) // need to fix
+            return [...state].sort(compareFunction) // need to fix
         }
         case 'check': {
-            // const compareFunctionUp = (a:UserType, b:UserType) => {
-            //     if (a.name > b.name) {
-            //         return 1;
-            //     }
-            //     if (a.name < b.name) {
-            //         return -1;
-            //     }
-            //     return 0;
-            // }
-            return state.filter(f => f.age > 17) // need to fix
+            return state.filter(f => f.age >= action.payload) // need to fix
         }
         default:
             return state
