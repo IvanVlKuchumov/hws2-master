@@ -1,3 +1,9 @@
 .loader {
     /*свг и/или анимация*/
+    width: 90px;
+    height: 90px;
+    background-image: url(ellipse4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
