@@ -1,9 +1,22 @@
 .loader {
     /*свг и/или анимация*/
-    width: 90px;
-    height: 90px;
-    background-image: url(ellipse4.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+    border-top: 3px solid #5f337a;
+    border-left: 2px solid #703c90;
+    border-bottom: 1px solid #8c4bb4;
+    border-right: transparent;
+    animation: spinner 0.8s linear infinite;
+}
 
+@keyframes spinner{
+    0%{
+        transform: rotate(0deg);
+    }
+
+
+    100%{
+        transform: rotate(360deg);
+    }
 }
