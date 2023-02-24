@@ -1,10 +1,13 @@
 .container {
+
 }
 
 .wrapper {
-    display: flex;
-    gap: 20px;
 }
 
 .number {
+    position: absolute;
+    transform: translateY(50%);
 }
+
+
